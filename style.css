@@ -1,0 +1,122 @@
+body{
+  color: #6969B3;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  background-color: white;
+}
+
+img{
+  border-radius: 150px;
+  height: 150px;
+}
+
+.card{
+  /* background-color: #faf9f5 ; */
+  background-color: white;
+  border-radius: 8px;
+  margin: 10px auto;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px;
+  transition: all 0.3s ease-out;
+}
+
+.card-orange{
+  background-color:#ffb703;
+}
+
+.card:hover{
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+#btn-orange{
+  background-color:white;
+  color: #ffb703;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+#btn-orange:hover{
+  background-color: #ffb703;
+  color: white;
+}
+
+.card-pink{
+  background-color: #FF006F;
+}
+
+.card-purple{
+  background-color: #446DF6;
+
+}
+
+.text-white{
+  color: white;
+}
+
+.card-btn{
+  margin-top: 30px;
+}
+
+h2{
+  margin-bottom: 1px;
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+  color: #6969B3;
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  display:inline-flex;
+  margin: 10px;
+  color: white;
+  height: 50px;
+}
+
+ul{
+  padding: 0px;
+  color: white;
+}
+
+li:hover{
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
